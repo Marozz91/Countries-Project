@@ -1,7 +1,7 @@
 # Countries Project
 ## link to project
 - https://marozz91.github.io/Countries-Project/
-- 
+  
 ## Description:
 Discover countries with just a search! Type in a country name and find out its population and currency. Easy, fast, and informative!
 
