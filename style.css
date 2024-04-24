@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&display=swap');
+
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --main-color: #001d3d;
+}
+
+body {
+    margin-top: 10px;
+
+}
+
+section {
+
+    width: 600px;
+    margin: auto;
+}
+
+h1 {
+
+    text-align: center;
+    color: var(--main-color);
+    font-weight: 600;
+}
+
+
+#btnAll {
+    width: 15%;
+    border-radius: 50px;
+    border: 1px solid var(--main-color);
+    padding: 5px;
+    color: white;
+    cursor: pointer;
+    background: var(--main-color);
+    transition: 0.3s;
+}
+
+input {
+    width: 75%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border-bottom: 1px solid var(--main-color);
+    padding: 5px;
+}
+
+#SearchBtn {
+    width: 5rem;
+    border-radius: 50px;
+    border: 1px solid var(--main-color);
+    padding: 5px;
+    color: white;
+    cursor: pointer;
+    background: var(--main-color);
+    transition: 0.3s;
+}
+
+
+table {
+
+    display: none;
+    min-width: 400px;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+
+thead {
+    background: var(--main-color);
+    color: white;
+
+}
+
+table td,
+table th {
+    border: 1px solid var(--main-color);
+    padding: 8px;
+}
+
+table tr:nth-child(even) {
+    background: lightgray;
+}
