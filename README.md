@@ -1,4 +1,6 @@
 # Countries Project
+## Description:
+Discover countries with just a search! Type in a country name and find out its population and currency. Easy, fast, and informative!
 
 ## Technologies Used:
 - HTML
